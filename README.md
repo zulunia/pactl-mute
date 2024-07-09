@@ -8,8 +8,9 @@ For instance using Elgato Streamdeck button to mute an application in linux
 
 ### Usage
 
-replace $app_name with the application name
+./pactl-mute.sh Firefox
 
+### To see list of current sinks and associated application name
 > pactl list sink-inputs | grep application.name
 
 
