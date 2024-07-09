@@ -1,6 +1,6 @@
 ## pactl-mute - Pulseaudio console application mute script
 
-Linux Bash Pulseaudio/Pipewire Mute Application script
+Finds all instances of an application via pulseaudio sinks (pactl list sink-inputs) and uses the corresponding #ID to mute
 
 Simple bash script to mute applications
 
